@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+<title>Intro to Web</title>
+<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+</head>
+
+<body>
+	<h1>Basic HTML/CSS</h1>
+
+<div id = "html_intro">
+	<h2> What is HTML? </h2>
+	<p> HTML stands for Hypertext Markup Language. </p>
+	<p> This is what you would use to as the skeleton of a webpage structure. The structure of a webpage is build with blocks we call html elements. We call these elements <b> tags</b>. </p>
+	<p>&lttag_name&gt - this is the start a tag</p>
+	<p>&lt/tag_name&gt - this is the end of a tag</p>
+	<p> There are special cases where tags won't need the forward slash '/' in the end tag <p>
+	<h3>Tag Examples</h3>
+
+	<ul>
+		<li> &lthtml&gt container for all the html elements &lt/html&gt</li>
+		<li> &lthead&gt tag containing meta (abstract) info about the document &lt/head&gt</li>
+		<li> &ltp&gt defines a paragraph &lt/p&gt</li>
+	</ul>
+
+	<h3>Creating Your Own HTML Page</h3>
+
+	<p>Now that we know a bit about HTML and tags, lets try to create our own html page!</p>
+	<p>The first step to creating an html page is having a text editor workspace to type your code into. There are many options you can use: textEdit, Atom, Sublime, etc. Once you have one opened, the first thing you should do is type the <b> &lt!doctype html&gt </b> declaration! This will be the first thing your browser will read from your document. The declaration will let your browser know what version of html your page is written in. </p>
+
+	<p>What do you think will be the next think we need to put in the document? <b> Hint: we previously introduced this tag </b></p>
+
+	<p>Within our html tag, we will be placing all of our other html elements, these include paragraphs, titles, images, etc. For now, let's make a simple website that will share a bit about ourselves.<p>
+
+	<p>Within our html tag, let's create a new tag:&lthead&gt&lt/head&gt Remember that this tag will contain abstract information about our page. For now, we will be placing the title of our page in this tag. Our page title will be encased in another tag: &lttitle&gt&lt/title&gt. Whatever we place inside our title tag will be displayed on the tab your website is opened on. Put your name inside the title tag.</p>
+
+	<p>Now let's open our website on a web browser to see how it looks so far. Follow these steps: </p>
+
+	<ol>
+		<li>Save your current file in a location where you can easily access (like your Desktop) and save it as: "YourName.html"</li>
+		<li>Open your web browser (Chrome, Safari, Firefox, etc.) </li>
+		<li>At the top of your computer, choose "File" >> "Open" and select your file "YourName.html"</li>
+	</ol>
+
+	<p> Now that you can see how the browser reads your code, you can continue working on "YourName.html" and refresh your page to see your updates!</p>
+
+	<p>Let's continue constructing your page. Our next tag will be the body tag: &ltbody&gt&lt/body&gt. Typically, inside this tag, you would include things in your webpage you want your users to see. We want to write up a small biography about ourselved for this tuturial. Another neat tool to use for creating html pages is online resources such as w3schools.</p>
+
+	<p> Open a new tab in your browser to open an html tag reference at www.w3schools.com. Find tags you would need to: make a header (your name), write a paragraph summary about yourself, make a list of things you like. Implement these in your html document.</p>
+
+	<h3>Let's get fancy</h3>
+
+	<p>Research and use the following tags to spice up your website: </p>
+
+	<ul>
+		<li>&ltimg&gt&lt/img&gt</li>
+		<li>&lta&gt&lt/a&gt</li>
+		<li>&ltfont&gt&lt/font&gt</li>
+	</ul>
+</div>
+
+	<h2>What is CSS?</h2>
+
+	<p>CSS stands for Cascading Style Sheets. Basically, this will describe how to display your html on your browser. Syntax for CSS is different for html. Instead of tags, CSS uses rule-sets. These are the basic components of a rule set:
+	</br>
+		<img class = "ex" src = "css_syntax.png"> </img>
+	</br>
+	<b>selectors</b> are used to identify certain things in your html document you want to style </br>
+	</p>
+
+	<p>Let's see what a difference CSS makes to this current website.</p>
+
+	<p>What happened to the page?</p>
+
+	<p> There are two ways to add CSS to your html code:
+		<ul>
+			<li>We can use the <b>&ltstyle&gt&lt/style&gt</b> tag where we can write our CSS rule sets in. Where would we place this tag in our html document?</li>
+			<li>We can also create a new file called "style.css" where we would write our css rule sets. However, how will our html code communicate with our css file? We would need to link the files together using the <b>&ltlink&gt&lt/link&gt</b> tag. Our link would look like: <b>&ltlink&gt rel="stylesheet" type="text/css" href="style.css" &lt/link&gt </b> Where will we include this in our html code?</li>
+		</ul>
+	</p>
+	<p>
+		Now let's try creating our own css file. Once you've created this, let's explore basic CSS properties we can make on our own page. First let's start by exploring the rule sets used to change this page.
+	</p>
+
+
+	<img class = "ex" src ="css_star.png"> </img>
+</body>
+
+</html>
